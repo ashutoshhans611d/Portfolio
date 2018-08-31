@@ -11,7 +11,7 @@ body, html {
 
 .bgimg {
     /* Background image */
-    background-image: url('https://images.unsplash.com/photo-1535571792787-fdc0128c1dfc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=522e3648850fb7282bac724f398a1b61&auto=format&fit=crop&w=1050&q=80');
+    background-image: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-0.3.5&s=44096dcff16504943b26559064fceee4&auto=format&fit=crop&w=1050&q=80');
     /* Full-screen */
     height: 100%;
     /* Center the background image */
@@ -23,7 +23,7 @@ body, html {
     /* Add a white text color to all elements inside the .bgimg container */
     color: white;
     /* Add a font */
-    font-family: "Courier New", Courier, monospace;
+    font-family: monospace;
     /* Set the font-size to 25 pixels */
     font-size: 25px;
 }
@@ -40,6 +40,7 @@ body, html {
     position: absolute;
     bottom: 0;
     left: 16px;
+    font-size: 16px
 }
 
 /* Position text in the middle */

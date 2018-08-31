@@ -10,6 +10,9 @@ const ComingSoon = () => {
             <div className="middle">
                 <h1>COMING SOON</h1>
                 <hr />
+                <div>
+                    
+                </div>
             </div>
             <div className="bottomleft">
                 <p>Due to project's critical timelines, work is still in progress!</p>
