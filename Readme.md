@@ -1,1 +1,6 @@
-To Be updated
+To start the project:
+
+1- npm install
+2- npm run dev
+
+To Be updated...
