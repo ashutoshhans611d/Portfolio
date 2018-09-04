@@ -1,6 +1,6 @@
 # Steps to start the project
 
-1- npm install<br />  
+1- npm install<br />
 2- npm run dev
 
 # Completed Features
