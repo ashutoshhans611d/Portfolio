@@ -27,7 +27,7 @@ module.exports = env => {
     },
     output: {
       filename: "bundle.js",
-      path: __dirname + "/docs",
+      path: __dirname + "/dist",
       publicPath: '/'
     },
     devServer: {

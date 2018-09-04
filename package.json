@@ -8,7 +8,8 @@
     "webpack-dev-server": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "yarn webpack-dev-server -- --env.mode development",
-    "prod": "yarn webpack -- --env.mode production"
+    "prod": "yarn webpack -- --env.mode production",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "tech",
@@ -32,6 +33,7 @@
     "file-loader": "^2.0.0",
     "font-awesome": "^4.7.0",
     "font-awesome-sass-loader": "^2.0.1",
+    "gh-pages": "^1.2.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.3",
     "react": "^16.4.2",

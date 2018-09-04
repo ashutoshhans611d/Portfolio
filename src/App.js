@@ -1,17 +1,17 @@
 import React from "react";
 //import ComingSoon from "./components/ComingSoon/ComingSoonComponent"
 import "./css/App.scss";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Main from "./components/MainComponent";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container black">
         {/*<ComingSoon />*/}
         <Main />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 export default App;
