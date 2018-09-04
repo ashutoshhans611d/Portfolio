@@ -1,0 +1,72 @@
+@import 'colors';
+
+.sidebar {
+    height: 100%;
+    width: 120px;
+    background-color: $secondary-color;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+
+    .profile-img {
+        height: 105px;
+        width: 120px;
+        opacity: 0.5;
+    }
+}
+
+.bar-block {
+    .bar-item {
+        display: block;
+        padding: 8px 16px;
+        text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+
+        &.button {
+            background-color: $secondary-color !important;
+            text-decoration: none;
+            &:hover, &.active, &:active{
+                background-color: $primary-color !important;
+                color: $primary-light !important;
+            }
+        }
+    }
+
+    &.center {
+        .bar-item {
+            text-align: center;
+        }
+    }
+
+    .dropdown-hover,
+    .dropdown-click {
+        width: 100%
+    }
+
+    .dropdown-hover {
+        .w3-button {
+            width: 100%;
+            text-align: left;
+            padding: 8px 16px
+        }
+
+        .dropdown-content {
+            min-width: 100%
+        }
+    }
+
+    .dropdown-click {
+        .button {
+            width: 100%;
+            text-align: left;
+            padding: 8px 16px
+        }
+
+        .dropdown-content {
+            min-width: 100%
+        }
+    }
+}

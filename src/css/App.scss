@@ -1,0 +1,129 @@
+@import 'colors';
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: $primary-color;
+
+    #app {
+        height: 100%;
+
+        .container {
+            height: inherit;
+        }
+    }
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.black,
+.black:hover {
+    color: $primary-light;
+    background-color: $primary-color;
+}
+
+.main {
+    margin-left: 120px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.title {
+    color: $base-color;
+}
+
+/* Padding classes */
+.padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
+.padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important
+}
+
+.padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.padding-large {
+    padding: 12px 24px !important;
+}
+
+.padding-top-32 {
+    padding-top: 32px;
+}
+/* positions */
+.center {
+    text-align: center;
+}
+
+/* content */
+
+.content {
+    max-width: 980px;
+    margin: auto;
+}
+
+.xxlarge {
+    font-size: 36px !important;
+}
+
+/* elements */
+.ash-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid $primary-light;
+    width: 100%;
+    font-family: inherit;
+    background-color: $secondary-light;
+}
+
+.ash-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
