@@ -3,7 +3,7 @@ import "../css/Home.scss";
 
 const Home = () => {
   return (
-    <div className="home padding-large">
+    <div className="home">
       <header className="center home-container padding-32" id="home">
         <h1 className="jumbo">
           <span className="hide-small">I'm</span> Ashutosh Hans.
